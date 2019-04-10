@@ -15,7 +15,7 @@ class GearTable extends React.Component {
         if (!summer && item.category === 'Summer') {
           continue
         }
-        if (!camping && item.category === 'Camping') {
+        if ((!camping || !overnight) && item.category === 'Camping') {
           continue
         }
         if (!tramp && item.category === 'Tramp') {

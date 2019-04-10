@@ -1,4 +1,4 @@
-const data = [
+const items = [
   {
     name: 'Boots',
     category: 'Clothing'
@@ -50,4 +50,4 @@ const data = [
 ]
 
 
-export default data;
+export default items;

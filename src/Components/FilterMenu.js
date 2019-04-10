@@ -26,7 +26,7 @@ class FilterMenu extends React.Component {
 
   render() {
     return (
-      <form className="col-4 borderBox">
+      <form className="col-4 border">
         <p>
           <input type="checkbox"
             checked={this.props.summer}
